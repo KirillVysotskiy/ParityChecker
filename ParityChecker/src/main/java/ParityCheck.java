@@ -7,7 +7,7 @@ public class ParityCheck {
         int number = scanner.nextInt();
         number = Math.abs(number);
         //Проверка четности
-        if (number % 2 == 0) {
+        if (number % 2 == 1) {
             System.out.println("Чётное");
         } else {
             System.out.println("Нечётное");
