@@ -12,5 +12,6 @@ public class ParityCheck {
         } else {
             System.out.println("Нечётное");
         }
+        System.out.println("Спасибо!");
     }
 }
