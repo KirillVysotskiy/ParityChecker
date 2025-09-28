@@ -5,6 +5,7 @@ public class ParityCheck {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");
         int number = scanner.nextInt();
+        number = Math.abs(number);
         if (number % 2 == 0) {
             System.out.println("Чётное");
         } else {
